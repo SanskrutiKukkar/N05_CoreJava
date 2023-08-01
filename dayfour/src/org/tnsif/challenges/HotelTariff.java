@@ -17,11 +17,13 @@ public class HotelTariff {
 		  case 9:
 		  case 10:System.out.println(rent*days);
 		          break;
-		  case 1:
-		  case 1:
-		  case 1:
-		  case 1:
-		  case 1:
+		  case 4:
+		  case 5:
+		  case 6:
+		  case 11:
+		  case 12:
+			  System.out.println((rent+(rent*0.2))*days);
+			  break;
 		}
 		
 
