@@ -3,9 +3,8 @@ package org.tnsif.statickeyword;
 public class StaticBlockExecutor {
 	
       static float salary;
-      String companyName;
-      
-      /*staic block is used to initialize the static variable we
+      String companyName;     
+      /*static block is used to initialize the static variable we
        * can't assign a value for any non-static variable inside
        * the static block*/
       static

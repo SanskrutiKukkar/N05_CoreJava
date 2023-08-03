@@ -16,7 +16,7 @@ class Cricket extends Sports
 	{
 		/* If parent and child class method are same and if we want 
 		 * to call parent class method inside the child class then use 
-		 * super.mrethodName();*/
+		 * super.methodName();*/
 		super.display();
 		System.out.println("No. of players is: "+noOfPlayers);
 	}

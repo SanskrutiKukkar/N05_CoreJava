@@ -15,7 +15,7 @@ class Capital extends State
 	{
 		/* super keyword with variable is used to call parent class
 		 * variable if and only if parent and child class variable 
-		 * name are some*/
+		 * name are same*/
 		System.out.println(super.statename); //Punjab
 		System.out.println(statename); //hariyana
 	}

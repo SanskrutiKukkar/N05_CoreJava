@@ -3,12 +3,10 @@ package org.tnsif.superkeyword;
 class Nationality
 {
 	String nationName;
-
 	public Nationality(String nationName) {
 		this.nationName=nationName;
 		System.out.println(nationName);
-	}
-	
+	}	
 }
 //child class
 class Person extends Nationality
@@ -27,8 +25,5 @@ public class SuperKeywordWithConstructor {
 
 	public static void main(String[] args) {
 		Person p=new Person("Germany","Geman");
-		
-
 	}
-
 }
