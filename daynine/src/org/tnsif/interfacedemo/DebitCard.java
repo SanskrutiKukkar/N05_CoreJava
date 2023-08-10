@@ -1,8 +1,8 @@
 package org.tnsif.interfacedemo;
 
 public interface DebitCard {
-	/*by default all the variables inside an interface is public
-	 * static final and if it is final then we must have to 
+	/*by default all the variables inside an interface is public,
+	 * static, final and if it is final then we must have to 
 	 * initialize value for that variable
 	 * */
     long cardno=67890987699L;
